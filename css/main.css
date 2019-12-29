@@ -1,5 +1,8 @@
 body {
     background: #DAE3E7;
+    font-family: 'Montserrat', sans-serif;
+    
+
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -8,6 +11,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 ul {
     list-style: none;
+}
+a {
+    color: #54ba4e;
 }
 .container {
     width: 100%;
@@ -38,7 +44,7 @@ ul {
 }
 
 .text_primary {
-    color: rgb(3,57,88)!important;
+    color: #b0b7bf!important;
     font-weight: 900;
     font-size: 1.4em;
 }
@@ -62,7 +68,10 @@ ul {
 }
 #Some-logos a:hover {
     transform: scale(1.25);
+    transition: all 0.4s;
+    color: green;
 }
+
 
 /* ----------------------main section-------- */
 
@@ -88,8 +97,9 @@ ul {
     line-height: 1.5;
 }
 .diplom_icon {
-    display: block;
+    /* display: block; */
     margin-right: 10px;
+    color: #778492;
 }
 .university{
     font-size: 13px;
@@ -100,4 +110,30 @@ ul {
 .year {
     color: #b0b7bf;
     font-weight: 500;
+}
+.info-ul {
+    padding: 0;
+}
+.info-ul li {
+    margin-bottom: 10px;
+}
+.contact-me {
+    margin-left: 375px;
+    padding-top: 200px;
+}
+.btn {
+    background: #54ba4e;
+    border-color:#54ba4e;
+    text-transform: uppercase;
+}
+.item {
+    margin-bottom: 30px;
+}
+.level-bar {
+    height: 15px;
+    background: #e8e8e8;
+}
+.level-bar-inner {
+    height: 15px;
+    background: #66cb8c;
 }
