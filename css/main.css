@@ -44,7 +44,7 @@ a {
 }
 
 .text_primary {
-    color: #b0b7bf!important;
+    color: #b0b7bf;
     font-weight: 900;
     font-size: 1.4em;
 }
@@ -60,17 +60,20 @@ a {
 .fa-stack-2x{
     font-size: 2em;
 }
-.fa-stack-1x{
-    line-height: inherit;
-}
+/* .fa-stack-1x{
+    line-height: inherit; 
+} */
 .fa-stack-white{
     color: #fff!important;
 }
 #Some-logos a:hover {
     transform: scale(1.25);
     transition: all 0.4s;
-    color: green;
+    
 }
+
+
+
 
 
 /* ----------------------main section-------- */
