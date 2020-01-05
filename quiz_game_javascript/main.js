@@ -1,5 +1,5 @@
 
-// console.log(alert('asd'));
+console.log(alert('To start the GAME write \'exit\' then open the console'));
 
 
 
@@ -36,7 +36,6 @@
         }
         
         this.displayScore(sc);
-
     }
 
     Question.prototype.displayScore = 
@@ -71,7 +70,6 @@
         }
         
     }
-
     var keepScore = score(); 
 
 
@@ -79,7 +77,6 @@
 
     function nextQuestion() {
 
-    
         var n = Math.floor(Math.random() * question.length);
         
         question[n].displayQuestion();
