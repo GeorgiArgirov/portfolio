@@ -1,0 +1,171 @@
+html , body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+a {
+  color: #5CB5B0;
+  text-decoration: none;
+}
+a:hover{
+  color: #133635;
+  text-decoration: none;
+}
+.clearfix {
+  display: block;
+  clear: both;
+}
+.container {
+  max-width: 1280px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 30px;
+  box-shadow: 0 11px 20px rgba(161, 163, 163);
+  background-color: white;
+  padding: 0;
+  z-index: 100;
+}
+
+.head img {
+  width: 150px;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.hdr_placeholder{
+  height: 150px;
+}
+
+.navbar {
+  float: right;
+  height: 50px;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+.navbar ul li {
+  float: left;
+} 
+.navbar ul:after {
+  display: block;
+  content: '';
+  clear: both;
+  
+
+}
+.navbar ul li a {
+  display: block;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 12px;
+  margin-left: 23px;
+}
+.burger_menu{
+  display: none;
+  float: right;
+  color: black;
+  font-size: 32px;
+  padding: 20px;
+}
+
+
+/* ------main------- */
+
+.row {
+  z-index: 10;
+  margin-left: 0;
+  margin-right: 0;
+}
+.padding {
+  padding: 1.5rem;
+}
+.img {
+  width: 100%;
+  height: 150px;
+}
+.img_react {
+  width:100%;
+  height: 100%;
+}
+.section {
+  margin-bottom: 2.5rem;
+}
+.title a {
+  color: #778492;
+}
+.deal_list_item{
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0.5em;
+  box-sizing: border-box;
+}
+.deal_list_item .deal_pic{
+  display: block;
+  height: 220px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.deal_list_item .deal_title{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.429em;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.deal_list_item p{
+  color: #808080;
+}
+
+
+/* ----aside---- */
+
+.brand div ul {
+  list-style: none;
+}
+.green {
+  background-color: green;
+}
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.white {
+  background-color: #808080;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+  .navbar {
+      display: none;
+  }
+  .burger_menu {
+      display: block;
+  }
+
+  body{
+      font-size: 12px;
+  }
+
+  .head a img {
+    display: none;
+  }
+
+}

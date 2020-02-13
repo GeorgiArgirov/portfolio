@@ -70,7 +70,6 @@ a:hover{
 }
 .burger_menu{
     display: none;
-    float: right;
     color: black;
     font-size: 32px;
     padding: 20px;
