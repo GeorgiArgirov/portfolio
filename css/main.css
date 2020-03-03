@@ -76,17 +76,15 @@ a {
 }
 
 
-
-
-
 /* ----------------------main section-------- */
 
 .about {
     padding: 30px;
 }
 .margin-bottom {
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
 }
+
 
 .img {
     width: 100%;
@@ -95,6 +93,11 @@ a {
 .img_react {
     width:100%;
     height: 100%;
+
+}
+.img_dropdown {
+    width: 100%;
+    height: 90%;
 }
 
 .section {
