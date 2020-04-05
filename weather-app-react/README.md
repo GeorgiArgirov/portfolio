@@ -1,3 +1,5 @@
+https://weatherappreact-51042.web.app/  I used free API and it's not working. The request has been blocked because is not secure. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
