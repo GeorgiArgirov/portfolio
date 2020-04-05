@@ -157,3 +157,21 @@ a {
     height: 15px;
     background: #66cb8c;
 }
+
+
+@media only screen and (max-width: 400px) {
+    .col-mb-3 {
+        text-align: center;
+    }
+    .profile-content {
+        text-align: center;
+        margin-left: 36px;
+    }
+    .picture {
+        margin-right: 2.5rem;
+        margin-left: 3.4rem;
+    }
+    .info-ul {
+    font-size: 16px;
+    }
+}
