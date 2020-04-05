@@ -168,8 +168,8 @@ a {
         margin-left: 36px;
     }
     .picture {
-        margin-right: 2.5rem;
-        margin-left: 3.4rem;
+        margin-right: auto;
+        margin-left: auto;
     }
     .info-ul {
     font-size: 16px;
