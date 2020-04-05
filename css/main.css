@@ -47,7 +47,7 @@ a {
 }
 
 .text_primary {
-    color: #b0b7bf;
+    color: #6baffc;
     font-weight: 900;
     font-size: 1.4em;
 }
@@ -63,9 +63,7 @@ a {
 .fa-stack-2x{
     font-size: 2em;
 }
-/* .fa-stack-1x{
-    line-height: inherit; 
-} */
+
 .fa-stack-white{
     color: #fff!important;
 }
