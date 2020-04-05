@@ -1,0 +1,25 @@
+[debug] [2020-04-04T15:00:42.534Z] ----------------------------------------------------------------------
+[debug] [2020-04-04T15:00:42.536Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mrarg\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-04-04T15:00:42.536Z] CLI Version:   8.0.1
+[debug] [2020-04-04T15:00:42.537Z] Platform:      win32
+[debug] [2020-04-04T15:00:42.537Z] Node Version:  v12.13.0
+[debug] [2020-04-04T15:00:42.538Z] Time:          Sat Apr 04 2020 18:00:42 GMT+0300 (Eastern European Summer Time)
+[debug] [2020-04-04T15:00:42.538Z] ----------------------------------------------------------------------
+[debug] [2020-04-04T15:00:42.538Z] 
+[debug] [2020-04-04T15:00:42.546Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-04T15:00:42.547Z] > authorizing via signed-in user
+[debug] [2020-04-04T15:00:42.547Z] [iam] checking project weatherappreact-51042 for permissions ["firebase.projects.get"]
+[debug] [2020-04-04T15:00:42.549Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/weatherappreact-51042:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-04T15:00:43.608Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 04 Apr 2020 15:00:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=954","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-04T15:00:43.610Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/weatherappreact-51042  
+ 
+[debug] [2020-04-04T15:00:44.098Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 04 Apr 2020 15:00:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\mrarg\Desktop\weather-app'...
+[info] 
+[debug] [2020-04-04T15:00:44.101Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/weatherappreact-51042/webApps/-/config  
+ 
+[debug] [2020-04-04T15:00:44.786Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 04 Apr 2020 15:00:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
