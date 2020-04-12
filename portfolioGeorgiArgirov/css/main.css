@@ -18,6 +18,12 @@ a {
 .name {
     color: rgba(0, 0, 0, 0.712);
 }
+.desc {
+    text-align: center;
+}
+#Some-logos {
+    text-align: center;
+}
 .container {
     width: 100%;
     padding-right: 15px;
