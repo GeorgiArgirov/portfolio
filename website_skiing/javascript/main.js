@@ -1,6 +1,24 @@
-$(document).ready(function() {
 
-    
+const navSlide = () => {
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav-links');
+  
+  
+
+  burger.addEventListener('click', () => {
+
+      nav.classList.toggle('nav-active');
+      burger.classList.toggle('toggle');
+  });
+  
+}
+navSlide();
+
+// console.log(alert('hello'));
+
+
+
+$(document).ready(function() {
     //---------Scroll Hidden-------//
     
 
@@ -76,9 +94,9 @@ $(document).ready(function() {
     var autoInterval = false;
     var delay = 500;
     var galleryImages = [
-        './images/bansko-hotel.jpg' ,
-        './images/Kempinski-Hotel-Grand-Arena-Bansko.jpg' ,
-        './images/lion-hotel-bansko.jpg' ,
+        'https://www.domaza.ru/upload/userfiles/169901/Bansko_Arena.jpg' ,
+        'https://www.infotourism.net/documents/40936_KempinskiHotelGrandArenaBansko.JPG' ,
+        'https://r-cf.bstatic.com/images/hotel/max1024x768/866/86651977.jpg' ,
     ];
 
     var galleryImageCaptions = [
@@ -118,6 +136,7 @@ $(document).ready(function() {
 //-----------SCROLL HIDE --------//
 
     var $mainHeader = $('#top_navigation');
+    var $logoBG = $('#Logo');
     var $headingElement = $('#bansko');
     var headingElementPosition = $headingElement.offset();
     var isHeaderFixed = false;
@@ -127,11 +146,13 @@ $(document).ready(function() {
         var scrollPosition = $window.scrollTop();
         if(scrollPosition > headingElementPosition.top && !isHeaderFixed){
             $mainHeader.addClass('fixed');
+            $logoBG.addClass('fixed');
             $('.headerPlaceholder').show();
             isHeaderFixed = true;
         }
         if(isHeaderFixed && scrollPosition < headingElementPosition.top){
             $mainHeader.removeClass('fixed');
+            $logoBG.removeClass('fixed');
             $('.headerPlaceholder').hide();
             isHeaderFixed = false;
         }

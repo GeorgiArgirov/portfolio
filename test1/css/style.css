@@ -37,7 +37,7 @@ a:hover{
   height: 150px;
 }
 .nav-links {
-  display: flex;
+  /* display: flex; */
   background-color: white;
   list-style: none;
   justify-content: space-around;
