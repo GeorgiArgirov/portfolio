@@ -171,7 +171,9 @@ a {
     }
     .profile-content {
         text-align: center;
-        margin-left: 36px;
+        
+        margin-left: auto;
+        margin-right: auto;
     }
     .picture {
         margin-right: auto;
